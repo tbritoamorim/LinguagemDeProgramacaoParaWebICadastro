@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cadastro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />
+    
+</head>
+<body>
+    <div class="main">
+        <div id="contactForm">
+            <span id="titulo">Cadastro</span>
+            <form action="validar.js" method="POST"> 
+                Nome: <br>
+                <input type="text" name="nome"> <br>
+                Data de Nascimento: <br>
+                <input type="date" name="nascimento" min="2000-01-01"> <br>
+                Email: <br>
+                <input type="email" name="email"> <br>
+                Cargo: <br>
+                <select name="cargo">
+                    <option value="cargo1">Cargo1</option>
+                    <option value="cargo2">Cargo2</option>
+                    <option value="cargo3">Cargo3</option>
+                    <option value="cargo4">Cargo4</option>
+                    <option value="cargo5">Cargo5</option>
+                    <option value="cargo6">Cargo6</option>
+                    <option value="cargo7">Cargo7</option>
+                    <option value="cargo8">Cargo8</option>
+                    <option value="cargo9">Cargo9</option>
+                    <option value="cargo10">Cargo10</option>
+                </select>
+                <input type="submit" value="Cadastrar" id="botao">
+            </form>
+        </div>  
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
